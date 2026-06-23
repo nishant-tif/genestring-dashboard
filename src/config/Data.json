@@ -1,0 +1,14 @@
+{
+  "logo": "../../public/assets/gauri-logo.png",
+  "Mask-group": "../../public/assets/Mask-group.png",
+  "description": "Dr. Gauri is a platform for IVF care",
+  "version": "1.0.0",
+  "author": "Dr. Gauri",
+  "author_email": "info@gauriivf.com",
+  "author_url": "https://gauriivf.com",
+  "author_twitter": "https://twitter.com/gauriivf",
+  "author_github": "https://github.com/gauriivf",
+  "author_linkedin": "https://linkedin.com/in/gauriivf",
+  "author_facebook": "https://facebook.com/gauriivf",
+  "author_instagram": "https://instagram.com/gauriivf"
+}

@@ -1,0 +1,90 @@
+{
+  "riskAssessment": {
+    "summary": {
+      "critical": 2,
+      "high": 6,
+      "medium": 8,
+      "low": 12
+    },
+    "categories": [
+      {
+        "level": "Critical",
+        "count": 2,
+        "color": "#FFEEEE",
+        "borderColor": "#FF7495",
+        "description": "Bias detected in loan approval model",
+        "items": [
+          {
+            "id": "CR-001",
+            "title": "Model Bias Detected",
+            "detail": "Loan approval model shows gender-based bias",
+            "status": "open",
+            "lastUpdated": "2026-01-10"
+          },
+          {
+            "id": "CR-002",
+            "title": "Regulatory Violation",
+            "detail": "Model decision logic violates fair lending rules",
+            "status": "open",
+            "lastUpdated": "2026-01-12"
+          }
+        ]
+      },
+      {
+        "level": "High",
+        "count": 6,
+        "color": "#FFF3D8",
+        "borderColor": "#ECB22E",
+        "description": "Missing audit logs, privacy risks",
+        "items": [
+          {
+            "id": "HI-001",
+            "title": "Missing Audit Logs",
+            "detail": "Inference logs not retained for compliance",
+            "status": "in_progress",
+            "lastUpdated": "2026-01-08"
+          },
+          {
+            "id": "HI-002",
+            "title": "PII Exposure Risk",
+            "detail": "Sensitive fields not masked in logs",
+            "status": "open",
+            "lastUpdated": "2026-01-09"
+          }
+        ]
+      },
+      {
+        "level": "Medium",
+        "count": 8,
+        "color": "#F0F5FC",
+        "borderColor": "#125AC7",
+        "description": "Documentation gaps identified",
+        "items": [
+          {
+            "id": "ME-001",
+            "title": "Incomplete Model Card",
+            "detail": "Training data description missing",
+            "status": "open",
+            "lastUpdated": "2026-01-05"
+          }
+        ]
+      },
+      {
+        "level": "Low",
+        "count": 12,
+        "color": "#EEFAF0",
+        "borderColor": "#2EB67D",
+        "description": "Minor updates needed",
+        "items": [
+          {
+            "id": "LO-001",
+            "title": "UI Label Update",
+            "detail": "Risk labels need wording refinement",
+            "status": "closed",
+            "lastUpdated": "2026-01-02"
+          }
+        ]
+      }
+    ]
+  }
+}

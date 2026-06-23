@@ -1,0 +1,16 @@
+# Ignore build and cache directories
+.next
+out
+build
+dist
+coverage
+node_modules
+
+# Ignore specific files
+.env
+.env.*
+*.min.js
+*.min.css
+public/
+package-lock.json
+yarn.lock

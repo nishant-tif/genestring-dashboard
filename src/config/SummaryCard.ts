@@ -1,0 +1,38 @@
+export const summaryCards = [
+  {
+    key: "totalModels",
+    value: 12,
+    title: "AI Models",
+    subtitle: "Registered & Tracked",
+    icon: "/assets/icons/dashboard/wallet.png",
+    iconColor: "#666",
+    suffix: "",
+  },
+  {
+    key: "highRiskModels",
+    value: 7,
+    title: "High-Risk Models",
+    subtitle: "Require Immediate Action",
+    icon: "/assets/icons/dashboard/warning.png",
+    iconColor: "#ff9800",
+    suffix: "",
+  },
+  {
+    key: "completeModels",
+    value: 68,
+    title: "Complete Models",
+    subtitle: "Documentation Coverage",
+    icon: "/assets/icons/dashboard/check.png",
+    iconColor: "#4caf50",
+    suffix: "%",
+  },
+  {
+    key: "criticalIssues",
+    value: 5,
+    title: "Critical Issues",
+    subtitle: "Non-Compliant Items",
+    icon: "/assets/icons/dashboard/list.png",
+    iconColor: "#f44336",
+    suffix: "",
+  },
+];
