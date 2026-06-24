@@ -19,37 +19,37 @@ const nextConfig: NextConfig = {
     remotePatterns: [
       {
         protocol: "http",
-        hostname: "api.drgauriagarwal.com",
+        hostname: "api.genestringlab.com",
         pathname: "/**",
       },
       {
         protocol: "http",
-        hostname: "images.drgauriagarwal.com",
+        hostname: "images.genestringlab.com",
         pathname: "/**",
       },
       {
         protocol: "http",
-        hostname: "devapi.drgauriagarwal.com",
+        hostname: "devapi.genestringlab.com",
         pathname: "/**",
       },
       {
         protocol: "https",
-        hostname: "api.drgauriagarwal.com",
+        hostname: "api.genestringlab.com",
         pathname: "/**",
       },
       {
         protocol: "https",
-        hostname: "images.drgauriagarwal.com",
+        hostname: "images.genestringlab.com",
         pathname: "/**",
       },
       {
         protocol: "https",
-        hostname: "devapi.drgauriagarwal.com",
+        hostname: "devapi.genestringlab.com",
         pathname: "/**",
       },
       {
         protocol: "https",
-        hostname: "prodapi.drgauriagarwal.com",
+        hostname: "prodapi.genestringlab.com",
         pathname: "/**",
       },
       {

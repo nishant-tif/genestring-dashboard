@@ -60,7 +60,7 @@ cp .env.example .env.local
 Edit `.env.local` and update the API base URL:
 
 ```env
-NEXT_PUBLIC_API_URL=https://devapi.normah.ai
+NEXT_PUBLIC_API_URL=https://devapi.genestringlab.com
 ```
 
 4. Run the development server:
@@ -82,7 +82,7 @@ For development with dummy data, any email and password will work. In production
 ## Project Structure
 
 ```
-normah/
+Genestring/
 ├── src/
 │   ├── app/                    # Next.js App Router pages
 │   │   ├── dashboard/          # Dashboard page

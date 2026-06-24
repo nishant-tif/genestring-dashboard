@@ -64,11 +64,11 @@ const AddOrganizationModal: React.FC = () => {
   const isOpen = activeModal === "addOrganization";
 
   /* ================= FETCH STATES ================= */
-  useEffect(() => {
-    // if (formData.country_id) {
-    dispatch(fetchStates("102"));
-    // }
-  }, []);
+  // useEffect(() => {
+  //   // if (formData.country_id) {
+  //   dispatch(fetchStates("102"));
+  //   // }
+  // }, []);
 
   /* =====================================
      LOCAL STATE

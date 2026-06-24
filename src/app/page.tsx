@@ -154,7 +154,7 @@ export default function Home() {
             height: "300px",
           }}
         >
-          <Image src={logo} alt="Normah" width={190} height={190} />
+          <Image src={logo} alt="Genestring" width={190} height={190} />
         </Box>
 
         {/* Watermark logo */}
