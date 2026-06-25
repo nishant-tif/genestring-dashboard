@@ -166,6 +166,7 @@ const Sidebar: React.FC<{
 
       <List sx={{ flex: 1, px: 2 }}>
         {/* Normal Menu */}
+        {/*
         {menuItems.map((item) => {
           const isActive =
             pathname === item.path || pathname?.startsWith(item.path + "/");
@@ -198,9 +199,11 @@ const Sidebar: React.FC<{
             </ListItem>
           );
         })}
+        */}
 
         {/* ================= WIDGETS ================= */}
 
+        {/*
         <ListItem disablePadding sx={{ mt: 2 }}>
           <ListItemButton
             onClick={handleWidgetsToggle}
@@ -335,9 +338,11 @@ const Sidebar: React.FC<{
             ))}
           </List>
         </Collapse>
+        */}
 
         {/* ================= SETTINGS ================= */}
 
+        {/*
         <ListItem disablePadding sx={{ mt: 2 }}>
           <ListItemButton
             onClick={handleSettingsToggle}
@@ -401,7 +406,9 @@ const Sidebar: React.FC<{
             ))}
           </List>
         </Collapse>
+        */}
 
+        {/*
         <ListItem disablePadding sx={{ mt: 1 }}>
           <ListItemButton
             component={Link}
@@ -430,6 +437,7 @@ const Sidebar: React.FC<{
             />
           </ListItemButton>
         </ListItem>
+        */}
 
         <ListItem disablePadding sx={{ mt: 1 }}>
           <ListItemButton
@@ -460,6 +468,7 @@ const Sidebar: React.FC<{
           </ListItemButton>
         </ListItem>
 
+        {/*
         <ListItem disablePadding sx={{ mt: 2 }}>
           <ListItemButton
             component={Link}
@@ -487,9 +496,11 @@ const Sidebar: React.FC<{
             />
           </ListItemButton>
         </ListItem>
+        */}
 
         {/* ================= ADMIN (SUPERADMIN) ================= */}
 
+        {/*
         {user?.user_role == "SUPERADMIN" && (
           <>
             <ListItem disablePadding sx={{ mt: 2 }}>
@@ -560,9 +571,11 @@ const Sidebar: React.FC<{
             </Collapse>
           </>
         )}
+        */}
 
         {/* ================= ARTICLES ================= */}
 
+        {/*
         {user?.user_role == "SUPERADMIN" && (
           <>
             <ListItem disablePadding sx={{ mt: 2 }}>
@@ -700,6 +713,7 @@ const Sidebar: React.FC<{
             </Collapse>
           </>
         )}
+        */}
       </List>
     </>
   );
