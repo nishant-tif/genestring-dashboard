@@ -19,8 +19,9 @@ import apiClient from "@/services/api";
 
 interface Appointment {
   appointment_id: number;
-  first_name: string;
+  first_name?: string;
   last_name?: string;
+  name?: string;
   email: string;
   phone_number: string;
   message?: string;
@@ -87,10 +88,16 @@ export default function AppointmentsPage() {
               {appointments.map((item) => (
                 <TableRow key={item.appointment_id}>
                   <TableCell>{item.appointment_id}</TableCell>
-                  <TableCell>{`${item.first_name || ""} ${item.last_name || ""}`.trim()}</TableCell>
+                  <TableCell>
+                    {item.name ||
+                      `${item.first_name || ""} ${item.last_name || ""}`.trim() ||
+                      "-"}
+                  </TableCell>
                   <TableCell>{item.email}</TableCell>
                   <TableCell>{item.phone_number}</TableCell>
-                  <TableCell>{item.message || "-"}</TableCell>
+                  <TableCell sx={{ wordBreak: "break-all", whiteSpace: "normal", maxWidth: 300 }}>
+                    {item.message || "-"}
+                  </TableCell>
                   <TableCell>{new Date(item.createdAt).toLocaleString()}</TableCell>
                 </TableRow>
               ))}
