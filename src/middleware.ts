@@ -16,7 +16,7 @@ export function middleware(request: NextRequest) {
     response = NextResponse.redirect(new URL("/", request.url));
   } else if (token && (isPublicPath || pathname === "/dashboard")) {
     response = NextResponse.redirect(
-      new URL("/dashboard/widgets/podcast", request.url),
+      new URL("/dashboard/appointments", request.url),
     );
   } else {
     response = NextResponse.next();

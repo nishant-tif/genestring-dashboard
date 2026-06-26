@@ -85,7 +85,7 @@ export default function Home() {
       // }
       document.cookie = `access_token=${response.token}; path=/`;
       toast.success(response.message || "Login successful!");
-      router.replace("/dashboard/widgets/podcast");
+      router.replace("/dashboard/appointments");
     } catch (error: unknown) {
       toast.error(
         error instanceof Error && "response" in error
